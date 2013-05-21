@@ -1,0 +1,43 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (30.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (66.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePeople (20130521065409)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (49.3ms)[0m  [1mCREATE TABLE "people" ("id" serial primary key, "name" character varying(255), "age" integer, "zipcode" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130521065409')
+  [1m[36m (10.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (639.6ms)[0m  DROP DATABASE IF EXISTS "rspec_may_13_test"
+  [1m[36m (572.7ms)[0m  [1mCREATE DATABASE "rspec_may_13_test" ENCODING = 'utf8'[0m
+  [1m[35m (83.2ms)[0m  CREATE TABLE "people" ("id" serial primary key, "name" character varying(255), "age" integer, "zipcode" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (10.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (42.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (11.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130521065409')
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (217.6ms)[0m  DROP DATABASE IF EXISTS "rspec_may_13_test"
+  [1m[36m (545.5ms)[0m  [1mCREATE DATABASE "rspec_may_13_test" ENCODING = 'utf8'[0m
+  [1m[35m (84.9ms)[0m  CREATE TABLE "people" ("id" serial primary key, "name" character varying(255), "age" integer, "zipcode" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (11.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (42.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (10.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130521065409')
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (221.2ms)[0m  DROP DATABASE IF EXISTS "rspec_may_13_test"
+  [1m[36m (596.6ms)[0m  [1mCREATE DATABASE "rspec_may_13_test" ENCODING = 'utf8'[0m
+  [1m[35m (104.3ms)[0m  CREATE TABLE "people" ("id" serial primary key, "name" character varying(255), "age" integer, "zipcode" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (11.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (41.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (11.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130521065409')
